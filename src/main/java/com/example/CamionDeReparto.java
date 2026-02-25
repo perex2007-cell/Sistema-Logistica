@@ -4,7 +4,7 @@ public class CamionDeReparto extends Transporte {
     private boolean tieneRefrigeracion;
 
     public CamionDeReparto(String id, double combustible, double CapacidadCarga, boolean tieneRefrigeracion) {
-        super(id, combustible, capacidad);
+        super(id, combustible, CapacidadCarga);
         this.tieneRefrigeracion = tieneRefrigeracion;
     }
 

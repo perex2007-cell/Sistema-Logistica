@@ -12,8 +12,8 @@ public class Transporte {
 
     }
 
-    public void getidTransporte() {
-        return;
+    public String getidTransporte() {
+        return idTransporte;
     }
 
     public double getCombustible() {
